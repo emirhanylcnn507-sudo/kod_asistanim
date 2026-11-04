@@ -1,11 +1,13 @@
 # kod_asistanim
-proje yazarı: Emirhan Yalçın 
+Proje Yazarı: Emirhan Yalçın
 # Projenin Adı: Kod-Asistan v0.1
-## Projenin Amacı: Kullanıcılara günlük işlerinde temel matematiksel hesaplamalar yapma konusunda yardımcı olacak bir dijital asistan tasarlamak.
+## Projenin Amacı: Kullanıcıdan alınan n değerine kadar olan sayıların toplamını hesaplayan bir dijital asistan tasarlamak.
 ## Projenin Hedefleri: 
-- v1.0 Sürümü: Kullanıcıdan alınan sayılarla temel hesaplama işlemlerini gerçekleştirmek.
-- v2.0 Sürümü: Kullanıcıya günün saatine göre selamlama mesajı iletmek ve geçmiş hesaplamaları saklamak.
+v1.0 Sürümü: 1'den n'e kadar olan sayıların toplamını döngü kullanarak hesaplamak ve ekrana yazdırmak.
+v2.0 Sürümü: Kullanıcının girdiği sayıları ve sonuçları hafızada saklamak.
 ## Projenin Kapsamı: 
-- Kullanıcı asistana işlem yapmak istediği sayıları ve değerleri girer.
-- Asistan, girilen bu değerleri belirlenen kritik eşik ile karşılaştırarak uygun sonucu ekrana yazdırır.
-## Kaynakça: programlama temelleri Ders Kitabı
+Kullanıcıdan n değeri okunur.
+Sayaç 1'den başlatılır ve toplam 0 olarak belirlenir.
+Sayaç n değerinden küçük olduğu sürece sayılar birbirine eklenir (Kritik Eşik / Döngü Koşulu: Sayaç < n).
+Şart sağlanmadığında toplam sonucu ekrana yazdırılır ve program durur.
+## Kaynakça: Programlama TemelleriDers Kitabı
